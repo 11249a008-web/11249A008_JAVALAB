@@ -1,9 +1,8 @@
-import java.time.LocalDate;
-import java.time.LocalTime;
+import java.util.Date;
 
-public class DateDemo {
+class DateDemo {
     public static void main(String[] args) {
-        System.out.println("Date: " + LocalDate.now());
-        System.out.println("Time: " + LocalTime.now());
+        Date d = new Date();
+        System.out.println("Current Date and Time: " + d);
     }
 }
